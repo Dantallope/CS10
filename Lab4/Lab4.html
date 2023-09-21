@@ -1,0 +1,29 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<title>LAB4</title>
+
+
+<script type="text/javascript">
+// CS10
+// Written by: Dante Braccialini
+// Date: 9/21/2023
+
+var stocks = ["IBM","HP","AMD","Oracle","Microsoft","Google","Intel","DELL","Apple","VMWARE"];
+var x = stocks.length;
+var y = stocks.sort();
+
+var stockCounter = 1;
+var i = 0;
+while (stocks[i]) {
+    document.write(stockCounter + " - " + stocks[i] + "<br>");
+    stockCounter++;
+    i++;
+}
+document.write("<br>");
+document.write("Number of stocks is: " + x);
+
+</script>
+</body>
+</html>
